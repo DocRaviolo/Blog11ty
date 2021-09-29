@@ -2,18 +2,20 @@ body {
     text-align: center;
     align-content: center;
     align-items: center;
-}
-
-h1 {
-    color: red;
-    font-weight: bold;
-    text-decoration-color: red;
+    background-color: lightblue;
 }
 
 main {
     color: dodgerblue;
 }
+article {
+    color: blueviolet;
+}
 
 footer {
     border-top : solid grey;
+}
+
+menu {
+    list-style-type: none;
 }
