@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: red;
+    font-weight: bold;
+    text-decoration-color: red;
+}
+
+main {
+    color: dodgerblue;
+}
+
+footer {
+    border-top : solid grey;
+}
