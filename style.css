@@ -1,12 +1,22 @@
 body {
     text-align: center;
-    align-content: center;
+   /* align-content: center;*/
     align-items: center;
     background-color: lightblue;
+
+    /*Je demande au body de prendre toute la hauteur del'écran */
+    min-height: 100vh;
+    /*je lui dis de se mettre en flex*/
+    display: flex;
+    /*les éléments du body seront en colonnes*/
+    flex-direction: column;
+    /*jenlève la marge mise par défaut*/
+    margin:0;
 }
 
 main {
     color: dodgerblue;
+    flex: 1;
 }
 article {
     color: blueviolet;
@@ -14,8 +24,20 @@ article {
 
 footer {
     border-top : solid grey;
+    background-color: aquamarine;
 }
 
 menu {
     list-style-type: none;
+}
+
+nav > ul {
+    display : flex;
+    flex-direction: row;
+
+}
+@media all and (max-width: 450px) {
+    nav > ul {
+        flex-direction: column;
+    }
 }
