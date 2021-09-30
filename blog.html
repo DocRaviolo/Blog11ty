@@ -4,7 +4,7 @@ title: Le blog de la loose
 permalink: "/blog/page-{{ pagination.pageNumber }}/index.html"
 pagination:
     data: collections.posts
-    size: 3
+    size: 2
     alias: posts
 ---
 
@@ -15,7 +15,7 @@ pagination:
 
     <nav id="nav-blog">
         <ol>
-            <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}">Prem.</a>{% else
+            <li>{% if page.url != pagination.href.first %}<a href="{{ pagination.href.first }}" >Prem.</a>{% else
                 %}Prem.{% endif %}
             </li>
             <li>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Prec.</a>{% else

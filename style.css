@@ -1,8 +1,8 @@
 body {
     text-align: center;
-   /* align-content: center;*/
+   align-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color: darkseagreen;
 
     /*Je demande au body de prendre toute la hauteur del'écran */
     min-height: 100vh;
@@ -11,20 +11,22 @@ body {
     /*les éléments du body seront en colonnes*/
     flex-direction: column;
     /*jenlève la marge mise par défaut*/
-    margin:0;
+    margin:200px;
 }
 
 main {
-    color: dodgerblue;
+    color: darkolivegreen;
     flex: 1;
 }
 article {
-    color: blueviolet;
+    color: darkslategrey;
+    border: solid dimgrey;
 }
 
 footer {
     border-top : solid grey;
-    background-color: aquamarine;
+    background-color: limegreen;
+    width:800px;
 }
 
 menu {
@@ -40,4 +42,11 @@ nav > ul {
     nav > ul {
         flex-direction: column;
     }
+}
+
+button {
+    background-color: lime;
+}
+img {
+    width: 400px;
 }
